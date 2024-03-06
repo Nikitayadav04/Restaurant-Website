@@ -1,0 +1,52 @@
+body{
+    background-image: url(pexels-elle-hughes-1660030.jpg);
+    background-size: cover;
+}
+h1{
+    margin-top: 100px;
+}
+
+#heading{
+    font-size: large;
+    margin-top: 50px;
+    margin-left: 470px;
+    margin-right: 475px;
+    text-align: center;
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animation{
+    from{
+        color: black;
+        left: 10px;
+    }
+    to{
+        color:aqua;
+        right: 20px;
+    }
+}
+h2{
+    text-align: center;
+    padding-top: 100px;
+}
+.login{
+    text-align: center;
+}
+.log{
+    padding: 45px 50px 25px 50px;
+}
+.pass{
+    padding: 15px 50px 25px 50px;
+}
+#confirm{
+    margin-right:12px;
+    margin-bottom:15px;
+}
+.submit{
+    margin-left:40px;
+}
